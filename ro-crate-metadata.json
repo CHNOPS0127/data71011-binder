@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    },
+    {
+      "memberOf": "http://pcdm.org/models#memberOf"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "hasPart": [
+        {
+          "@id": "data71011-binder-main/hello.py"
+        },
+        {
+          "@id": "data71011-binder-main/postBuild"
+        },
+        {
+          "@id": "data71011-binder-main/README.md"
+        },
+        {
+          "@id": "data71011-binder-main/requirements.txt"
+        }
+      ],
+      "name": "DATA71011_Week5_Lab",
+      "author": {
+        "@id": "#Zhiying-1"
+      },
+      "license": {
+        "@id": "#CreativeWork-1"
+      }
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data71011-binder-main/hello.py",
+      "@type": "File"
+    },
+    {
+      "@id": "data71011-binder-main/postBuild",
+      "@type": "File"
+    },
+    {
+      "@id": "data71011-binder-main/README.md",
+      "@type": "File"
+    },
+    {
+      "@id": "data71011-binder-main/requirements.txt",
+      "@type": "File"
+    },
+    {
+      "@id": "#Zhiying-1",
+      "@type": "Person",
+      "name": "Zhiying-1"
+    },
+    {
+      "@id": "#CreativeWork-1",
+      "@type": "CreativeWork",
+      "name": "CreativeWork-1"
+    }
+  ]
+}
